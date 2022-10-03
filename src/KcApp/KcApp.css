@@ -1,8 +1,79 @@
-
 .my-color {
-	color: red;
+  color: red;
 }
 
+h1 {
+  margin: 0;
+  margin-bottom: 0px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 300;
+  font-size: 6rem;
+  line-height: 1.167;
+  letter-spacing: -0.01562em;
+  margin-bottom: 0.35em;
+}
+
+h2 {
+  margin: 0;
+  margin-bottom: 0px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 300;
+  font-size: 6rem;
+  line-height: 1.167;
+  letter-spacing: -0.01562em;
+  margin-bottom: 0.35em;
+}
+
+a {
+  font-family: "Roboto";
+}
+
+span {
+  margin: 0;
+  margin-bottom: 0px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  margin-bottom: 0.35em;
+  display: block;
+}
+.settings {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.spacing {
+  margin-top: 0.75rem !important;
+  margin-bottom: 0.75rem !important;
+}
 .my-font {
-	font-family: 'Work Sans';
+  font-family: "Roboto";
+}
+
+.registerArea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #fafafa;
+}
+
+.registerArea > span {
+  margin-right: 8px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: url("/public/keycloak_static/resources/img/keycloak-bg.png")
+    no-repeat center center fixed;
+}
+
+#kc-info {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important ;
+  background-color: red;
 }
